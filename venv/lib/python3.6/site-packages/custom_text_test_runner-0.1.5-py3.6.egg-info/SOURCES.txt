@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+custom_text_test_runner/__init__.py
+custom_text_test_runner.egg-info/PKG-INFO
+custom_text_test_runner.egg-info/SOURCES.txt
+custom_text_test_runner.egg-info/dependency_links.txt
+custom_text_test_runner.egg-info/requires.txt
+custom_text_test_runner.egg-info/top_level.txt

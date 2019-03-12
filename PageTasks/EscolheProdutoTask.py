@@ -14,15 +14,17 @@ class MainPage:
 
 
     def click_go_button(self):
+
         test = MainPageLocators(self.driver)
+
         test.get_go_button().click()
+
         test.Add_cart().click()
 
-        time.sleep(5)
+        time.sleep(3)
         test.Proceed_Checkout1().click()
 
-
-        self.driver.find_element(By.PARTIAL_LINK_TEXT, "Proceed to checkout").click()
+        test.Proceed_Checkout1().click()
 
         email = random.randrange(100)
         test.Email_Address().send_keys(email,"@dbserver.com.br")
@@ -61,13 +63,11 @@ class MainPage:
 
         test.Confirm_Cadastro().click()
 
-
         test.Proceed_Checkout2().click()
 
         self.driver.find_element_by_id("cgv").click()
 
         self.driver.find_element_by_xpath("/html/body/div/div[2]/div/div[3]/div/div/form/p/button").click()
-        #test.Proceed_Checkout3().clcik()
 
         test.Form_Pagamento().click()
 

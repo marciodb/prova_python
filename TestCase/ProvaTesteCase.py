@@ -39,7 +39,6 @@ class ProvaTesteCase(unittest.TestCase):
         main_page = MainPage(self.driver)
         main_page.Proceed_Checkout4()
 
-
     def Email_Address(self):
 
         main.page = MainPage(self.driver)
@@ -129,6 +128,7 @@ class ProvaTesteCase(unittest.TestCase):
     def Confirm_Pagagmento(self):
         main.page = MainPage(self.driver)
         main_page.Confirm_Pagagmento()
+
 
     def tearDown(self):
         self.driver.close()

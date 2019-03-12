@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+table_printer/__init__.py
+table_printer.egg-info/PKG-INFO
+table_printer.egg-info/SOURCES.txt
+table_printer.egg-info/dependency_links.txt
+table_printer.egg-info/pbr.json
+table_printer.egg-info/top_level.txt

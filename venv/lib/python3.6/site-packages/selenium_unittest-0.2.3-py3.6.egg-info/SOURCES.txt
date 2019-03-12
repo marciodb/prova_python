@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+selenium_unittest/__init__.py
+selenium_unittest/selenium_test_base.py
+selenium_unittest/selenium_test_manager.py
+selenium_unittest/selenium_test_runner.py
+selenium_unittest.egg-info/PKG-INFO
+selenium_unittest.egg-info/SOURCES.txt
+selenium_unittest.egg-info/dependency_links.txt
+selenium_unittest.egg-info/pbr.json
+selenium_unittest.egg-info/requires.txt
+selenium_unittest.egg-info/top_level.txt
+test/test_google.py

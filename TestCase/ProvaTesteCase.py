@@ -5,6 +5,8 @@ import time
 from selenium.webdriver.support.ui import WebDriverWait
 from PageTasks.EscolheProdutoTask import MainPage
 import PageTasks.EscolheProdutoTask
+import Screenshot.screenshot
+import VerificationPoints
 
 class ProvaTesteCase(unittest.TestCase):
 
@@ -13,6 +15,8 @@ class ProvaTesteCase(unittest.TestCase):
         self.driver = webdriver.Firefox()
         self.driver.get("http://automationpractice.com/index.php?")
 
+    def Print(self):
+        self.Print()
     def test_search_in_python_org(self):
         main_page = MainPage(self.driver)
         main_page.click_go_button()
@@ -20,6 +24,11 @@ class ProvaTesteCase(unittest.TestCase):
     def Add_button(self):
         main_page = MainPage(self.driver)
         main_page.Add_Cart()
+
+    def Verification_Produto(self):
+        Validacoes = MainPage(self.driver)
+        Validacoes.Produto_Carrinho()
+
 
     def Proceed_To_Checkout1(self):
 
@@ -120,13 +129,6 @@ class ProvaTesteCase(unittest.TestCase):
     def Confirm_Pagagmento(self):
         main.page = MainPage(self.driver)
         main_page.Confirm_Pagagmento()
-
-
-
-
-
-
-
 
     def tearDown(self):
         self.driver.close()

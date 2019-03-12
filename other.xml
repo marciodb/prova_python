@@ -1,0 +1,37 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="PyCharm.InitialConfiguration" value="true" />
+    <property name="PyCharm.InitialConfiguration.V2" value="true" />
+    <property name="PyCharm.InitialConfiguration.V3" value="true" />
+    <property name="PyCharm.InitialConfiguration.V4" value="true" />
+    <property name="PyCharm.InitialConfiguration.V5" value="true" />
+    <property name="PyCharm.InitialConfiguration.V6" value="true" />
+    <property name="PyCharm.InitialConfiguration.V7" value="true" />
+    <property name="PyCharm.initialConfigurationShown" value="true" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/PycharmProjects/untitled&#10;/home/ubuntu/Documentos/automacao_python" />
+    <property name="file.gist.reindex.count" value="3468" />
+    <property name="fileTypeChangedCounter" value="1" />
+    <property name="lastTip" value="1" />
+  </component>
+  <component name="PyTestFrameworkService">
+    <option name="SDK_TO_PYTEST">
+      <map>
+        <entry key="$USER_HOME$/automacao_python/bin/python" value="false" />
+        <entry key="$USER_HOME$/venv/bin/python" value="false" />
+      </map>
+    </option>
+    <option name="SDK_TO_NOSETEST">
+      <map>
+        <entry key="$USER_HOME$/automacao_python/bin/python" value="false" />
+        <entry key="$USER_HOME$/venv/bin/python" value="false" />
+      </map>
+    </option>
+    <option name="SDK_TO_TRIALTEST">
+      <map>
+        <entry key="$USER_HOME$/automacao_python/bin/python" value="false" />
+        <entry key="$USER_HOME$/venv/bin/python" value="false" />
+      </map>
+    </option>
+  </component>
+</application>

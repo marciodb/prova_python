@@ -15,8 +15,6 @@ class ProvaTesteCase(unittest.TestCase):
         self.driver = webdriver.Firefox()
         self.driver.get("http://automationpractice.com/index.php?")
 
-    def Print(self):
-        self.Print()
     def test_search_in_python_org(self):
         main_page = MainPage(self.driver)
         main_page.click_go_button()
@@ -25,27 +23,23 @@ class ProvaTesteCase(unittest.TestCase):
         main_page = MainPage(self.driver)
         main_page.Add_Cart()
 
-    def Verification_Produto(self):
-        Validacoes = MainPage(self.driver)
-        Validacoes.Produto_Carrinho()
-
+    def Validacao_Produto(self):
+        VerificationPoints = VerificationPoints(self.driver)
+        VerificationPoints.Produto_Carrinho()
 
     def Proceed_To_Checkout1(self):
-
         main_page = MainPage(self.driver)
         main_page.Proceed_Checkout1()
 
     def Proceed_Checkout4(self):
         main_page = MainPage(self.driver)
-        main_page.Proceed_Checkout4()
+        main_page.Proceed_Checkout1()
 
     def Email_Address(self):
-
         main.page = MainPage(self.driver)
         main_page.Email_Address()
 
     def Email_Address_CLICK(self):
-
         main.page = MainPage(self.driver)
         main_page.Email_Address_Click()
 
@@ -109,6 +103,10 @@ class ProvaTesteCase(unittest.TestCase):
         main.page = MainPage(self.driver)
         main_page.Confirm_Cadastro()
 
+    def Validacao_Cadastro(self):
+        VerificationPoints = VerificationPoints(self.driver)
+        VerificationPoints.Endereco()
+
     def Proceed_Checkout2(self):
         main.page = MainPage(self.driver)
         main_page.Proceed_Checkout2()
@@ -128,6 +126,10 @@ class ProvaTesteCase(unittest.TestCase):
     def Confirm_Pagagmento(self):
         main.page = MainPage(self.driver)
         main_page.Confirm_Pagagmento()
+
+    def Confirma_Compra(self):
+        VerificationPoints = VerificationPoints(self.driver)
+        VerificationPoints.Compra()
 
 
     def tearDown(self):

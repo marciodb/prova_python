@@ -8,10 +8,9 @@ import random
 
 
 class MainPage:
+
     def __init__(self, driver):
         self.driver = driver
-
-
 
     def click_go_button(self):
 
@@ -21,10 +20,11 @@ class MainPage:
 
         test.Add_cart().click()
 
-        time.sleep(3)
+        time.sleep(5)
         test.Proceed_Checkout1().click()
 
-        test.Proceed_Checkout1().click()
+        #test.Proceed_Checkout1().click()
+        self.driver.find_element(By.PARTIAL_LINK_TEXT, "Proceed to checkout").click()
 
         email = random.randrange(100)
         test.Email_Address().send_keys(email,"@dbserver.com.br")

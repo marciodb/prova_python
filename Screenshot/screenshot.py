@@ -1,18 +1,8 @@
 import pyscreenshot as ImageGrab
 
+def main():
+    imagem = ImageGrab.grab()
+    imagem.save('screenShot1.jpg', 'jpeg')
 
-
-class Screenshot:
-
-    def screen(self):
-
-        if __name__ == '__main__':
-
-            # grab fullscreen
-            im = ImageGrab.grab()
-
-            # save image file
-            im.save('screenshot.png')
-
-            # show image in a window
-            im.show()
+if __name__ == "__main__":
+    main()

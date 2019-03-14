@@ -27,7 +27,7 @@ class MainPage:
 
         test.Proceed_Checkout1().click()
 
-        email = random.randrange(100)
+        email = random.randrange(10000)
         test.Email_Address().send_keys(email,"@dbserver.com.br")
         self.driver.get_screenshot_as_file('Email')
         test.Email_Address_Click().click()

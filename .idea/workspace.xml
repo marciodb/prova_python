@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83f4af29-2d0b-498f-b10b-e0383f99fd8b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PageTasks/EscolheProdutoTask.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageTasks/EscolheProdutoTask.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Cadastro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Email" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Produto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/ProvaTesteCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/ProvaTesteCase.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestCase/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/geckodriver.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utils/EmailAleatorio/EmailAleatorio.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/EmailAleatorio/EmailAleatorio.py" afterDir="false" />
     </list>
@@ -30,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestCase/ProvaTesteCase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+            <state relative-caret-position="105">
+              <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -42,20 +47,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PageTasks/EscolheProdutoTask.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="1185">
+              <caret line="79" column="55" selection-start-line="79" selection-start-column="55" selection-end-line="79" selection-end-column="55" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Utils/EmailAleatorio/EmailAleatorio.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -81,9 +77,9 @@
         <option value="$PROJECT_DIR$/VerificationPoints/verificationPoints.py" />
         <option value="$PROJECT_DIR$/Screenshot/screenshot.py" />
         <option value="$PROJECT_DIR$/PageObjects/EscolheProdutoObject.py" />
-        <option value="$PROJECT_DIR$/TestCase/ProvaTesteCase.py" />
-        <option value="$PROJECT_DIR$/PageTasks/EscolheProdutoTask.py" />
         <option value="$PROJECT_DIR$/Utils/EmailAleatorio/EmailAleatorio.py" />
+        <option value="$PROJECT_DIR$/PageTasks/EscolheProdutoTask.py" />
+        <option value="$PROJECT_DIR$/TestCase/ProvaTesteCase.py" />
       </list>
     </option>
   </component>
@@ -112,17 +108,6 @@
               <item name="ProvaDB" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
               <item name="TestCase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProvaDB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProvaDB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
-              <item name="EmailAleatorio" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -257,7 +242,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4992163" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5023511" side_tool="true" weight="0.21661238" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4976489" weight="0.26872963" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4976489" weight="0.267101" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32954547" />
       <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.4984326" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -384,7 +369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/Produto.jpeg" />
     <entry file="file://$PROJECT_DIR$/PageObjects/EscolheProdutoObject.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -402,37 +386,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/ProvaTesteCase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="218">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="525">
             <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/EmailAleatorio/EmailAleatorio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/Produto.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/Email.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/Cadastro.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/PageTasks/EscolheProdutoTask.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="1185">
+          <caret line="79" column="55" selection-start-line="79" selection-start-column="55" selection-end-line="79" selection-end-column="55" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/EmailAleatorio/EmailAleatorio.py">
+    <entry file="file://$PROJECT_DIR$/TestCase/ProvaTesteCase.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
         </state>
       </provider>
     </entry>

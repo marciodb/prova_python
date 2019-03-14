@@ -14,7 +14,6 @@ class ProvaTesteCase(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
         self.driver.get("http://automationpractice.com/index.php?")
-        self.driver.get_screenshot_as_file('Pagina')
 
     def test_search_in_python_org(self):
         main_page = MainPage(self.driver)

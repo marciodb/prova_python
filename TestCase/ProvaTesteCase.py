@@ -14,6 +14,7 @@ class ProvaTesteCase(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
         self.driver.get("http://automationpractice.com/index.php?")
+        self.driver.get_screenshot_as_file('Pagina.jpeg')
 
     def test_search_in_python_org(self):
         main_page = MainPage(self.driver)
@@ -105,7 +106,6 @@ class ProvaTesteCase(unittest.TestCase):
 
     def Validacao_Cadastro(self):
         VerificationPoints = VerificationPoints(self.driver)
-        VerificationPoints.Endereco()
 
     def Proceed_Checkout2(self):
         main.page = MainPage(self.driver)
@@ -130,7 +130,6 @@ class ProvaTesteCase(unittest.TestCase):
     def Confirma_Compra(self):
         VerificationPoints = VerificationPoints(self.driver)
         VerificationPoints.Compra()
-
 
     def tearDown(self):
         self.driver.close()

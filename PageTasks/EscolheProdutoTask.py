@@ -23,8 +23,7 @@ class MainPage:
         time.sleep(5)
         test.Proceed_Checkout1().click()
 
-        #test.Proceed_Checkout1().click()
-        self.driver.find_element(By.PARTIAL_LINK_TEXT, "Proceed to checkout").click()
+        test.Proceed_Checkout1().click()
 
         email = random.randrange(100)
         test.Email_Address().send_keys(email,"@dbserver.com.br")

@@ -1,8 +1,9 @@
-import pyscreenshot as ImageGrab
+import Screenshot.screenshot
 
-def main():
-    imagem = ImageGrab.grab()
-    imagem.save('screenShot1.jpg', 'jpeg')
 
-if __name__ == "__main__":
-    main()
+
+class Print_telas:
+
+
+   def Print(self):
+    self.driver.get_screenshot_as_file('Produto.jpeg')

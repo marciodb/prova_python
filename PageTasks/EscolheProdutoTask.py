@@ -64,9 +64,9 @@ class MainPage:
 
         test.Confirm_Cadastro().click()
 
-        self.driver.get_screenshot_as_file('Cadastro')
-
         test.Proceed_Checkout2().click()
+
+        self.driver.get_screenshot_as_file('Cadastro')
 
         self.driver.find_element_by_id("cgv").click()
 

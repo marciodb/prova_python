@@ -77,13 +77,15 @@ class MainPageLocators:
         return  self.driver.find_element(By.XPATH, "/html/body/div/div[2]/div/div[3]/div/form/p/button")
 
     def Term_Service(self):
-        return  self.driver.find_element("cgv")
+        return  self.driver.find_element(By.ID, "cgv")
 
     def Proceed_Checkout3(self):
         return  self.driver.find_element(By.XPATH, "/html/body/div/div[2]/div/div[3]/div/div/form/p/button")
 
     def Form_Pagamento(self):
         return  self.driver.find_element(By.XPATH, "/html/body/div/div[2]/div/div[3]/div/div/div[3]/div[1]/div/p/a")
+
+    
 
 
 

@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83f4af29-2d0b-498f-b10b-e0383f99fd8b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjects/EscolheProdutoObject.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/EscolheProdutoObject.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PageTasks/EscolheProdutoTask.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageTasks/EscolheProdutoTask.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/screenshot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshot/screenshot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Email" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Email" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Produto" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Produto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/ProvaTesteCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/ProvaTesteCase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/geckodriver.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PageObjects/EscolheProdutoObject.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+            <state relative-caret-position="195">
+              <caret line="79" column="48" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="48" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -28,11 +35,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestCase/ProvaTesteCase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+            <state relative-caret-position="229">
+              <caret line="133" column="9" selection-start-line="133" selection-start-column="9" selection-end-line="133" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,18 +50,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PageTasks/EscolheProdutoTask.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+            <state relative-caret-position="274">
+              <caret line="76" column="103" selection-start-line="76" selection-start-column="103" selection-end-line="76" selection-end-column="103" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/debugger.xml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -73,19 +78,19 @@
         <option value="$PROJECT_DIR$/Utils/element.py" />
         <option value="$PROJECT_DIR$/Runner/TestRunner.py" />
         <option value="$PROJECT_DIR$/VerificationPoints/verificationPoints.py" />
-        <option value="$PROJECT_DIR$/Screenshot/screenshot.py" />
-        <option value="$PROJECT_DIR$/PageObjects/EscolheProdutoObject.py" />
-        <option value="$PROJECT_DIR$/TestCase/ProvaTesteCase.py" />
         <option value="$PROJECT_DIR$/Utils/EmailAleatorio/EmailAleatorio.py" />
+        <option value="$PROJECT_DIR$/Screenshot/screenshot.py" />
+        <option value="$PROJECT_DIR$/TestCase/ProvaTesteCase.py" />
+        <option value="$PROJECT_DIR$/PageObjects/EscolheProdutoObject.py" />
         <option value="$PROJECT_DIR$/PageTasks/EscolheProdutoTask.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="77" />
-    <option name="y" value="47" />
-    <option name="width" value="1279" />
-    <option name="height" value="701" />
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1299" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -95,6 +100,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,16 +108,10 @@
               <item name="ProvaDB" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ProvaDB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="TestCase" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,13 +225,12 @@
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26645768" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26645768" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4945141" weight="0.2931596" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4945141" visible="true" weight="0.2931596" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -240,9 +239,10 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4992163" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5023511" side_tool="true" weight="0.21661238" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4976489" visible="true" weight="0.267101" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4976489" weight="0.267101" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32954547" />
       <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.4984326" weight="0.32899022" />
+      <window_info anchor="bottom" id="Messages" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -346,16 +346,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Runner/TestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_linux/laf.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -364,13 +354,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Screenshot/screenshot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -384,15 +367,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/Produto.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/Email.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/Cadastro.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/Produto.jpeg" />
+    <entry file="file://$PROJECT_DIR$/TestCase/Email.jpeg" />
+    <entry file="file://$PROJECT_DIR$/TestCase/Cadastro.jpeg" />
     <entry file="file://$PROJECT_DIR$/Utils/EmailAleatorio/EmailAleatorio.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -400,17 +377,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/ProvaTesteCase.py">
+    <entry file="file://$PROJECT_DIR$/debugger.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runner/TestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Screenshot/screenshot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PageObjects/EscolheProdutoObject.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+        <state relative-caret-position="195">
+          <caret line="79" column="48" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="48" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
@@ -419,16 +409,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PageTasks/EscolheProdutoTask.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        <state relative-caret-position="274">
+          <caret line="76" column="103" selection-start-line="76" selection-start-column="103" selection-end-line="76" selection-end-column="103" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/debugger.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/TestCase/ProvaTesteCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="133" column="9" selection-start-line="133" selection-start-column="9" selection-end-line="133" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

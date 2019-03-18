@@ -20,7 +20,7 @@ class MainPage:
 
         test.Add_cart().click()
 
-        self.driver.get_screenshot_as_file('Produto')
+        self.driver.get_screenshot_as_file('Produto.png')
 
         time.sleep(5)
         test.Proceed_Checkout1().click()
@@ -29,7 +29,7 @@ class MainPage:
 
         email = random.randrange(10000)
         test.Email_Address().send_keys(email,"@dbserver.com.br")
-        self.driver.get_screenshot_as_file('Email')
+        self.driver.get_screenshot_as_file('Email.png')
         test.Email_Address_Click().click()
 
         time.sleep(5)
@@ -64,11 +64,11 @@ class MainPage:
 
         test.Confirm_Cadastro().click()
 
+        self.driver.get_screenshot_as_file('Cadastro.png')
+
         test.Proceed_Checkout2().click()
 
-        self.driver.get_screenshot_as_file('Cadastro')
-
-        self.driver.find_element_by_id("cgv").click()
+        test.Term_Service().click()
 
         self.driver.find_element_by_xpath("/html/body/div/div[2]/div/div[3]/div/div/form/p/button").click()
 
@@ -77,7 +77,7 @@ class MainPage:
         self.driver.find_element_by_xpath("/html/body/div/div[2]/div/div[3]/div/form/p/button").click()
         test.Form_Pagamento().click()
 
-        self.driver.get_screenshot_as_file('Compra')
+        self.driver.get_screenshot_as_file('Compra.png')
 
 
 

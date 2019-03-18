@@ -74,9 +74,6 @@ class MainPage:
 
         test.Form_Pagamento().click()
 
-        self.driver.find_element_by_xpath("/html/body/div/div[2]/div/div[3]/div/form/p/button").click()
-        test.Form_Pagamento().click()
-
         self.driver.get_screenshot_as_file('Compra.png')
 
 

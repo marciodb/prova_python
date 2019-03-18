@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="83f4af29-2d0b-498f-b10b-e0383f99fd8b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/EscolheProdutoObject.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/EscolheProdutoObject.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PageTasks/EscolheProdutoTask.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageTasks/EscolheProdutoTask.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/screenshot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshot/screenshot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/Email" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Email" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/Produto" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Produto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/ProvaTesteCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/ProvaTesteCase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Email.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Email.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/Produto.png" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/Produto.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestCase/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/geckodriver.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PageObjects/EscolheProdutoObject.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="79" column="48" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="48" />
+            <state relative-caret-position="225">
+              <caret line="84" column="4" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -35,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestCase/ProvaTesteCase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="133" column="9" selection-start-line="133" selection-start-column="9" selection-end-line="133" selection-end-column="9" />
+            <state relative-caret-position="-1560">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -47,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PageTasks/EscolheProdutoTask.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="76" column="103" selection-start-line="76" selection-start-column="103" selection-end-line="76" selection-end-column="103" />
+            <state relative-caret-position="255">
+              <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
               </folding>
@@ -81,8 +78,8 @@
         <option value="$PROJECT_DIR$/Utils/EmailAleatorio/EmailAleatorio.py" />
         <option value="$PROJECT_DIR$/Screenshot/screenshot.py" />
         <option value="$PROJECT_DIR$/TestCase/ProvaTesteCase.py" />
-        <option value="$PROJECT_DIR$/PageObjects/EscolheProdutoObject.py" />
         <option value="$PROJECT_DIR$/PageTasks/EscolheProdutoTask.py" />
+        <option value="$PROJECT_DIR$/PageObjects/EscolheProdutoObject.py" />
       </list>
     </option>
   </component>
@@ -397,10 +394,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/ProvaTesteCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1560">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PageObjects/EscolheProdutoObject.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="79" column="48" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="48" />
+        <state relative-caret-position="225">
+          <caret line="84" column="4" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
@@ -409,20 +416,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PageTasks/EscolheProdutoTask.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="76" column="103" selection-start-line="76" selection-start-column="103" selection-end-line="76" selection-end-column="103" />
+        <state relative-caret-position="255">
+          <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCase/ProvaTesteCase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="133" column="9" selection-start-line="133" selection-start-column="9" selection-end-line="133" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -7,6 +7,7 @@ Baixe o projeto e descompacte
 Abra o Pycharm
 Arraste a pasta do projeto para dento da IDE
 Identifique o caminho do projeto baixado
+Installe o Selenium e o unnitest
 
 Agora com a IDE aberta, siga pelos diretórios: TestCase>ProvaTestCase e execute o teste através dessa classe.
 

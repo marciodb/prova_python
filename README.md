@@ -13,6 +13,7 @@ Digite git init</br>
 git config --global user.name "seu usuario"</br>
 git config --global user.email seu email</br>
 git clone [url] [diretory]</br>
+Faça as devidas importações e configurações necessárias</br>
 
 
 

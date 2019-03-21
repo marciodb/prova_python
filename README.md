@@ -9,7 +9,7 @@ Crie um novo projeto
 Installe o Selenium e o unnitest
 
 Agora com a IDE aberta, abra o terminal : 
-Digite git init/
+Digite git init</br>
 git config --global user.name "seu usuario"/
 git config --global user.email seu email/
 git clone [url] [diretory]

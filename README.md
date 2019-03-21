@@ -5,11 +5,15 @@ Guia de instalação:
 
 Baixe o projeto e descompacte
 Abra o Pycharm
-Arraste a pasta do projeto para dento da IDE
-Identifique o caminho do projeto baixado
+Crie um novo projeto
 Installe o Selenium e o unnitest
 
-Agora com a IDE aberta, siga pelos diretórios: TestCase>ProvaTestCase e execute o teste através dessa classe.
+Agora com a IDE aberta, abra o terminal : 
+Digite git init
+git config --global user.name "seu usuario"
+git config --global user.email seu email
+git clone [url] [diretory]
+
 
 
 *OBSERVE QUE OS OBJETOS SÃO MAPEADOS NAS CLASSES DO DIRETÓRIO "PAGEOBJECTS", SUAS AÇÕES E COMPORTAMENTOS SÃO EXECUTADOS NO "TASKS" 
